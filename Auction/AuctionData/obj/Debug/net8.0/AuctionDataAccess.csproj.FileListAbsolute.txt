@@ -1,0 +1,14 @@
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionData\bin\Debug\net8.0\AuctionDataAccess.deps.json
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionData\bin\Debug\net8.0\AuctionDataAccess.runtimeconfig.json
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionData\bin\Debug\net8.0\AuctionDataAccess.dll
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionData\bin\Debug\net8.0\AuctionDataAccess.pdb
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionData\obj\Debug\net8.0\AuctionDataAccess.csproj.AssemblyReference.cache
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionData\obj\Debug\net8.0\AuctionDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionData\obj\Debug\net8.0\AuctionDataAccess.AssemblyInfoInputs.cache
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionData\obj\Debug\net8.0\AuctionDataAccess.AssemblyInfo.cs
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionData\obj\Debug\net8.0\AuctionDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionData\obj\Debug\net8.0\AuctionDataAccess.dll
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionData\obj\Debug\net8.0\refint\AuctionDataAccess.dll
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionData\obj\Debug\net8.0\AuctionDataAccess.pdb
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionData\obj\Debug\net8.0\AuctionDataAccess.genruntimeconfig.cache
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionData\obj\Debug\net8.0\ref\AuctionDataAccess.dll

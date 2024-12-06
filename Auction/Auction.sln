@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auction", "Auction\Auction.csproj", "{32A4BA63-78B1-46AA-9FB4-E903956AD7FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionDataAccess", "AuctionData\AuctionDataAccess.csproj", "{4AF5F75F-53B4-4C3B-B59D-C2E7958CF2BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionBusiness", "AuctionBusiness\AuctionBusiness.csproj", "{9E0A3A13-D20C-4C64-B9B7-D40E5DE244EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionCore", "AuctionCore\AuctionCore.csproj", "{ABF5C847-684D-4C45-B17C-DB8D91D10016}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32A4BA63-78B1-46AA-9FB4-E903956AD7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A4BA63-78B1-46AA-9FB4-E903956AD7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A4BA63-78B1-46AA-9FB4-E903956AD7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A4BA63-78B1-46AA-9FB4-E903956AD7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF5F75F-53B4-4C3B-B59D-C2E7958CF2BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF5F75F-53B4-4C3B-B59D-C2E7958CF2BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF5F75F-53B4-4C3B-B59D-C2E7958CF2BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF5F75F-53B4-4C3B-B59D-C2E7958CF2BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0A3A13-D20C-4C64-B9B7-D40E5DE244EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0A3A13-D20C-4C64-B9B7-D40E5DE244EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0A3A13-D20C-4C64-B9B7-D40E5DE244EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0A3A13-D20C-4C64-B9B7-D40E5DE244EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABF5C847-684D-4C45-B17C-DB8D91D10016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF5C847-684D-4C45-B17C-DB8D91D10016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF5C847-684D-4C45-B17C-DB8D91D10016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF5C847-684D-4C45-B17C-DB8D91D10016}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

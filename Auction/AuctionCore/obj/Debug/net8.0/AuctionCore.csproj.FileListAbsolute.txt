@@ -1,0 +1,12 @@
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionCore\bin\Debug\net8.0\AuctionCore.deps.json
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionCore\bin\Debug\net8.0\AuctionCore.dll
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionCore\bin\Debug\net8.0\AuctionCore.pdb
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionCore\obj\Debug\net8.0\AuctionCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionCore\obj\Debug\net8.0\AuctionCore.AssemblyInfoInputs.cache
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionCore\obj\Debug\net8.0\AuctionCore.AssemblyInfo.cs
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionCore\obj\Debug\net8.0\AuctionCore.csproj.CoreCompileInputs.cache
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionCore\obj\Debug\net8.0\AuctionCore.dll
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionCore\obj\Debug\net8.0\refint\AuctionCore.dll
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionCore\obj\Debug\net8.0\AuctionCore.pdb
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionCore\obj\Debug\net8.0\ref\AuctionCore.dll
+C:\Users\bkesk\Desktop\ESeçim\Auction\AuctionCore\obj\Debug\net8.0\AuctionCore.csproj.AssemblyReference.cache
