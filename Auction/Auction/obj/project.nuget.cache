@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rtP+IhBcaa8=",
+  "dgSpecHash": "GGTmPJaG9Ds=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bkesk\\Desktop\\ESeçim\\Auction\\Auction\\Auction.csproj",
+  "projectFilePath": "C:\\Users\\bkesk\\Desktop\\Açık Artırma\\Auction\\Auction\\Auction.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bkesk\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\bkesk\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
