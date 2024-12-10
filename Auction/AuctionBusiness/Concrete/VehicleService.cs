@@ -21,9 +21,21 @@ public class VehicleService : IVehicleService
         _response = response;
     }
 
-    public Task<ApiResponse> ChangeVehicleStatus(int vehicleId)
+    public async Task<ApiResponse> ChangeVehicleStatus(int vehicleId)
     {
-        throw new NotImplementedException();
+        var result = await _context.Vehicles.FindAsync(vehicleId);
+        if(result == null)
+        {
+            _response.IsSuccess = false;
+            return _response;
+        }
+        else
+        {
+            result.IsActive = false;
+            _response.IsSuccess = true;
+            await _context.SaveChangesAsync();
+            return _response;
+        }
     }
 
     public async Task<ApiResponse> CreateVehicle(CreateVehicleDTO model)
@@ -99,8 +111,12 @@ public class VehicleService : IVehicleService
             Vehicle objDTO = _mapper.Map(model,result);
             if(await _context.SaveChangesAsync()> 0)
             {
-
+                _response.IsSuccess = true;
+                _response.Result = objDTO;
+                return _response;
             }
         }
+        _response.IsSuccess = false;
+        return _response;
     }
 }

@@ -1,4 +1,5 @@
 ﻿using AuctionBusiness.Dtos;
+using AuctionDataAccess.Domain;
 using AuctionDataAccess.Models;
 using AutoMapper;
 
@@ -8,6 +9,7 @@ public class MappingProfile : Profile
 {
     public MappingProfile()
     {
-        CreateMap<RegisterRequestDTO,ApplicationUser>().ReverseMap();
+        CreateMap<CreateVehicleDTO,Vehicle>().ReverseMap();
+        CreateMap<UpdateVehicleDTO,Vehicle>().ReverseMap();
     }
 }

@@ -19,4 +19,8 @@
     <ProjectReference Include="..\AuctionData\AuctionDataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
 </Project>

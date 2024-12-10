@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bkesk\\Desktop\\Açık Artırma\\Auction\\AuctionCore\\AuctionCore.csproj": {}
+    "C:\\Users\\bkesk\\Desktop\\Proje Dosyalarım\\Projeler\\Açık Artırma\\Auction\\AuctionCore\\AuctionCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bkesk\\Desktop\\Açık Artırma\\Auction\\AuctionCore\\AuctionCore.csproj": {
+    "C:\\Users\\bkesk\\Desktop\\Proje Dosyalarım\\Projeler\\Açık Artırma\\Auction\\AuctionCore\\AuctionCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bkesk\\Desktop\\Açık Artırma\\Auction\\AuctionCore\\AuctionCore.csproj",
+        "projectUniqueName": "C:\\Users\\bkesk\\Desktop\\Proje Dosyalarım\\Projeler\\Açık Artırma\\Auction\\AuctionCore\\AuctionCore.csproj",
         "projectName": "AuctionCore",
-        "projectPath": "C:\\Users\\bkesk\\Desktop\\Açık Artırma\\Auction\\AuctionCore\\AuctionCore.csproj",
+        "projectPath": "C:\\Users\\bkesk\\Desktop\\Proje Dosyalarım\\Projeler\\Açık Artırma\\Auction\\AuctionCore\\AuctionCore.csproj",
         "packagesPath": "C:\\Users\\bkesk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bkesk\\Desktop\\Açık Artırma\\Auction\\AuctionCore\\obj\\",
+        "outputPath": "C:\\Users\\bkesk\\Desktop\\Proje Dosyalarım\\Projeler\\Açık Artırma\\Auction\\AuctionCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

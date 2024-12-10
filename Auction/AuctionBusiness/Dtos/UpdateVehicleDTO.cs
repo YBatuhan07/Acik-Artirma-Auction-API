@@ -1,4 +1,6 @@
-﻿namespace AuctionBusiness.Dtos;
+﻿using Microsoft.AspNetCore.Http;
+
+namespace AuctionBusiness.Dtos;
 
 public class UpdateVehicleDTO
 {
@@ -11,9 +13,10 @@ public class UpdateVehicleDTO
     public string PlateNumber { get; set; }
     public double AuctionPrice { get; set; }
     public string AdditionalInformation { get; set; }
-    public DateTime StartTime { get; set; }
+    public DateTime StartTime { get; set; } = DateTime.UtcNow;
     public DateTime EndTime { get; set; }
-    public bool IsActive { get; set; }
+    public bool IsActive { get; set; } = true;
     public string Image { get; set; }
     public string SellerId { get; set; }
+    public IFormFile File { get; set; }
 }

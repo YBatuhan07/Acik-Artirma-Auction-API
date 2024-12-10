@@ -24,8 +24,10 @@ namespace Auction
             builder.Services.AddDbContext<ApplicationDbContext>(options => { options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")); });
             builder.Services.AddIdentity<ApplicationUser,IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddScoped<IUserService,UserService>();
+            builder.Services.AddScoped<IVehicleService,VehicleService>();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            //builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             builder.Services.AddScoped(typeof(ApiResponse));
 
             var app = builder.Build();
