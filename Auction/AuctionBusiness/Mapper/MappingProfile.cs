@@ -9,7 +9,9 @@ public class MappingProfile : Profile
 {
     public MappingProfile()
     {
-        CreateMap<CreateVehicleDTO,Vehicle>().ReverseMap();
-        CreateMap<UpdateVehicleDTO,Vehicle>().ReverseMap();
+        CreateMap<CreateVehicleDTO, Vehicle>().ReverseMap();
+        CreateMap<UpdateVehicleDTO, Vehicle>().ReverseMap();
+        CreateMap<CreateBidDTO, Bid>().ReverseMap();
+        CreateMap<UpdateBidDTO, Bid>().ReverseMap();
     }
 }

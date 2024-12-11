@@ -1,5 +1,90 @@
 [
   {
+    "ContainingType": "Auction.Controllers.BidController",
+    "Method": "AutoBid",
+    "RelativePath": "api/Bid",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AuctionBusiness.Dtos.CreateBidDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Auction.Controllers.BidController",
+    "Method": "GetBidById",
+    "RelativePath": "api/Bid/{bidId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bidId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Auction.Controllers.BidController",
+    "Method": "ModifyBid",
+    "RelativePath": "api/Bid/{bidId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bidId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "AuctionBusiness.Dtos.UpdateBidDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Auction.Controllers.BidController",
+    "Method": "CreateBid",
+    "RelativePath": "api/Bid/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AuctionBusiness.Dtos.CreateBidDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Auction.Controllers.BidController",
+    "Method": "GetBidByVehicle",
+    "RelativePath": "api/Bid/GetBidsByVehicle/{vehicleId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vehicleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Auction.Controllers.UserController",
     "Method": "LoginUser",
     "RelativePath": "api/User/Login",
@@ -26,22 +111,6 @@
       {
         "Name": "model",
         "Type": "AuctionBusiness.Dtos.RegisterRequestDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Auction.Controllers.VehicleController",
-    "Method": "DeleteVehicle",
-    "RelativePath": "api/Vehicle/{vehicleId}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "vehicleId",
-        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -173,6 +242,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Auction.Controllers.VehicleController",
+    "Method": "DeleteVehicle",
+    "RelativePath": "api/Vehicle/Remove/Vehicle/{vehicleId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vehicleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

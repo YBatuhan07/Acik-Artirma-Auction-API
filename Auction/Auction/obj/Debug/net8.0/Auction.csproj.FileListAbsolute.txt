@@ -318,3 +318,8 @@ C:\Users\bkesk\Desktop\Proje Dosyalarım\Projeler\Açık Artırma\Auction\Auctio
 C:\Users\bkesk\Desktop\Proje Dosyalarım\Projeler\Açık Artırma\Auction\Auction\obj\Debug\net8.0\Auction.pdb
 C:\Users\bkesk\Desktop\Proje Dosyalarım\Projeler\Açık Artırma\Auction\Auction\obj\Debug\net8.0\Auction.genruntimeconfig.cache
 C:\Users\bkesk\Desktop\Proje Dosyalarım\Projeler\Açık Artırma\Auction\Auction\obj\Debug\net8.0\ref\Auction.dll
+C:\Users\bkesk\Desktop\Proje Dosyalarım\Projeler\Açık Artırma\Auction\Auction\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\bkesk\Desktop\Proje Dosyalarım\Projeler\Açık Artırma\Auction\Auction\bin\Debug\net8.0\MailKit.dll
+C:\Users\bkesk\Desktop\Proje Dosyalarım\Projeler\Açık Artırma\Auction\Auction\bin\Debug\net8.0\MimeKit.dll
+C:\Users\bkesk\Desktop\Proje Dosyalarım\Projeler\Açık Artırma\Auction\Auction\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\bkesk\Desktop\Proje Dosyalarım\Projeler\Açık Artırma\Auction\Auction\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

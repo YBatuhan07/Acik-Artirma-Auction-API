@@ -1,5 +1,6 @@
 ﻿using AuctionDataAccess.Models;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
 namespace AuctionDataAccess.Domain;
@@ -23,6 +24,7 @@ public class Vehicle
     public string Image { get; set; }
     public string SellerId { get; set; }
     [JsonIgnore]
+    [ForeignKey("SellerId")]
     public ApplicationUser Seller { get; set; }
     public virtual List<Bid> Bids { get; set; }
 }

@@ -1,4 +1,5 @@
 
+using Auction.Extensions;
 using AuctionBusiness.Abstraction;
 using AuctionBusiness.Concrete;
 using AuctionCore.Models;
@@ -21,14 +22,13 @@ namespace Auction
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddDbContext<ApplicationDbContext>(options => { options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")); });
-            builder.Services.AddIdentity<ApplicationUser,IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
-            builder.Services.AddScoped<IUserService,UserService>();
-            builder.Services.AddScoped<IVehicleService,VehicleService>();
+            builder.Services.AddPersistenceLayer(builder.Configuration);
+            builder.Services.AddApplicationLayer(builder.Configuration);
+            builder.Services.AddSwaggerCollection(builder.Configuration);
+
             builder.Services.AddSwaggerGen();
             //builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-            builder.Services.AddScoped(typeof(ApiResponse));
 
             var app = builder.Build();
 
@@ -38,12 +38,10 @@ namespace Auction
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
             app.UseHttpsRedirection();
-
+            app.UseAuthentication();
             app.UseAuthorization();
-
-
+            app.UseStaticFiles();
             app.MapControllers();
 
             app.Run();

@@ -1,5 +1,6 @@
 ﻿using AuctionBusiness.Abstraction;
 using AuctionBusiness.Dtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Auction.Controllers;
@@ -68,7 +69,8 @@ public class VehicleController : ControllerBase
         return BadRequest();
     }
 
-    [HttpDelete("{vehicleId}")]
+    [HttpDelete("Remove/Vehicle/{vehicleId}")]
+    [Authorize(Roles ="Administrator")]
     public async Task<IActionResult> DeleteVehicle([FromRoute] int vehicleId)
     {
         var result = await _vehicleService.DeleteVehicle(vehicleId);
