@@ -85,6 +85,79 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Auction.Controllers.PaymentController",
+    "Method": "MakePayment",
+    "RelativePath": "api/Payment/Pay",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "vehicleId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AuctionCore.Models.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Auction.Controllers.PaymentHistoryController",
+    "Method": "CreatePaymentHistory",
+    "RelativePath": "api/PaymentHistory/AddHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AuctionBusiness.Dtos.CreatePaymentHistoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Auction.Controllers.PaymentHistoryController",
+    "Method": "CheckStatusAuction",
+    "RelativePath": "api/PaymentHistory/CheckStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AuctionCore.CheckStatusModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AuctionCore.Models.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Auction.Controllers.UserController",
     "Method": "LoginUser",
     "RelativePath": "api/User/Login",
